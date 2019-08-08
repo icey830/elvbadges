@@ -1,0 +1,26 @@
+{
+  "name": "elvbadges",
+  "version": "1.0.0",
+  "description": "shileds,badges,徽章,图标 https://elvbadges.elvns.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icey830/elvbadges.git"
+  },
+  "keywords": [
+    "Github",
+    "badges",
+    "SVG",
+    "image",
+    "elvns互动精灵"
+  ],
+  "author": "ELVNS互动精灵",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://elvbadges.elvns.com/issues"
+  },
+  "homepage": "https://elvbadges.elvns.com/#readme"
+}
