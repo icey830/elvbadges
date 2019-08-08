@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "name": "shields",
+  "env": {
+    "PERSISTENCE_DIR": "/tmp/persistence"
+  },
+  "type": "npm",
+  "engines": {
+    "node": "8.x"
+  }
+}
