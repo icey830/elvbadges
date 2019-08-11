@@ -2,7 +2,7 @@ public:
   bind:
     address: 'localhost'
 
-  allowedOrigin: ['https://git.elvns.com']
+  allowedOrigin: ['https://git.elvns.com','https://git.elvns.com']
   redirectUrl: 'https://git.elvns.com'
   
   rateLimit: false
