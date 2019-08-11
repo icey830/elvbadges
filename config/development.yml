@@ -2,9 +2,9 @@ public:
   bind:
     address: 'localhost'
 
-  cors:
-    allowedOrigin: ['http://localhost:3000']
-
+  allowedOrigin: ['https://git.elvns.com']
+  redirectUrl: 'https://git.elvns.com'
+  
   rateLimit: false
 
   handleInternalErrors: false
