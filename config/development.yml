@@ -3,7 +3,7 @@ public:
     address: 'localhost'
     
   cors:
-  allowedOrigin: ['https://git.elvns.com','https://git.elvns.com']
+  allowedOrigin: ['http://git.elvns.com','https://git.elvns.com']
   
   redirectUrl: 'https://git.elvns.com'
   
