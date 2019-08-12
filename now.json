@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "name": "shields",
+  "name": "elvbadges",
   "env": {
     "PERSISTENCE_DIR": "/tmp/persistence"
   },
