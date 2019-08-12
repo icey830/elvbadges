@@ -7,7 +7,6 @@ main_steps: &main_steps
     - restore_cache:
         keys:
           - v2-dependencies-{{ checksum "package.json" }}
-          # https://github.com/badges/shields/issues/1937
           - v2-dependencies-
 
     - run:
@@ -59,7 +58,6 @@ integration_steps: &integration_steps
     - restore_cache:
         keys:
           - v2-dependencies-{{ checksum "package-lock.json" }}
-          # https://github.com/badges/shields/issues/1937
           - v2-dependencies-
 
     - run:
@@ -128,7 +126,6 @@ package_steps: &package_steps
     - restore_cache:
         keys:
           - v2-dependencies-{{ checksum "package-lock.json" }}
-          # https://github.com/badges/shields/issues/1937
           - v2-dependencies-
 
     - run:
@@ -144,8 +141,6 @@ package_steps: &package_steps
         environment:
           CYPRESS_INSTALL_BINARY: 0
 
-    # Run the package tests on each currently supported node version. See:
-    # https://github.com/badges/shields/blob/master/gh-badges/README.md#node-version-support
 
     - run:
         <<: *run_package_tests
