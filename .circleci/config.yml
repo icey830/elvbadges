@@ -6,7 +6,7 @@ main_steps: &main_steps
 
     - restore_cache:
         keys:
-          - v2-dependencies-{{ checksum "package-lock.json" }}
+          - v2-dependencies-{{ checksum "package.json" }}
           # https://github.com/badges/shields/issues/1937
           - v2-dependencies-
 
@@ -21,7 +21,7 @@ main_steps: &main_steps
     - save_cache:
         paths:
           - node_modules
-        key: v2-dependencies-{{ checksum "package-lock.json" }}
+        key: v2-dependencies-{{ checksum "package.json" }}
 
     - run:
         name: Linter
