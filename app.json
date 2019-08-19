@@ -2,9 +2,9 @@
   "name": "elvbadges",
   "description": "Concise, consistent, and legible badges in SVG and raster format.",
   "keywords": ["badge", "github", "svg", "status"],
-  "website": "https://elvbadges.elvns.com/",
+  "website": "https://git.elvns.com/",
   "repository": "https://github.com/icey830/elvbadges",
-  "logo": "https://git.elvns.com//favicon.png",
+  "logo": "https://git.elvns.com/favicon.png",
   "env": {
     "WHEELMAP_TOKEN": {
       "description": "Configure the token to be used for the Wheelmap service.",
