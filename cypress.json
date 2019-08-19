@@ -4,6 +4,6 @@
   "pluginsFile": false,
   "supportFile": false,
   "env": {
-    "backend_url": "http://shields.elvns.com:8080"
+    "backend_url": "https://git.elvns.com:8080"
   }
 }
