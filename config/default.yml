@@ -35,4 +35,6 @@ public:
 
   fetchLimit: '10MB'
 
-private: {}
+private: 
+
+  gh_token: '53f218dffcd546cf81ef35488d04c829467fe7b8'
