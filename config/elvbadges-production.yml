@@ -11,7 +11,7 @@ public:
 
   redirectUrl: 'https://elvbadges.elvns.com/'
 
-  rasterUrl: 'https://raster.shields.io'
+  rasterUrl: 'https://raster.elvns.com'
 
 private:
   # These are not really private; they should be moved to `public`.
