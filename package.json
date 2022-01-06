@@ -51,7 +51,7 @@
     "lodash.times": "^4.3.2",
     "moment": "^2.24.0",
     "node-env-flag": "^0.1.0",
-    "parse-link-header": "^1.0.1",
+    "parse-link-header": "^2.0.0",
     "path-to-regexp": "^3.0.0",
     "pretty-bytes": "^5.2.0",
     "priorityqueuejs": "^1.0.0",
